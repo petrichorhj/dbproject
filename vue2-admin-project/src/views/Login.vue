@@ -248,7 +248,7 @@ async handleLogin() {
     }
   } catch (e) {
     console.log(e);
-    this.$message.error('登录失败，无法连接服务器1')
+    this.$message.error('登录失败，无法连接服务器')
     this.refreshCode()
   } finally {
     this.isLoading = false
