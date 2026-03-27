@@ -14,6 +14,7 @@
         <div class="menu-item" :class="{ active: tab === 'trash' }" @click="switchTab('trash')">
           <i class="el-icon-delete"></i>
           <span>回收站</span>
+          <!-- 回收站开发待完善 -->
         </div>
       </div>
 
