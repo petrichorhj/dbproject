@@ -172,7 +172,7 @@ export default {
     },
     async getList() {
       const res = await getNoteList()
-      // ✅ 直接读取数据库 folder_id，不模拟1113
+      // ✅ 直接读取数据库 folder_id，不模拟11234
       this.noteList = res.data || []
     },
     async switchTab(t) {
